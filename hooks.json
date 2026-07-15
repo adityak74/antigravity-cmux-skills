@@ -1,0 +1,21 @@
+{
+  "cmux-hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ -n \"$CMUX_SOCKET_PATH\" ]; then cmux hooks agy session-start; else exit 0; fi"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "if [ -n \"$CMUX_SOCKET_PATH\" ]; then cmux hooks agy stop; else exit 0; fi"
+      }
+    ]
+  }
+}

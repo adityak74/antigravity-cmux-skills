@@ -1,0 +1,6 @@
+{
+  "name": "antigravity-cmux-skill",
+  "description": "Skill for orchestrating independent Antigravity sessions in cmux terminal — split panes, agent monitoring, browser automation, sidebar metadata, notifications, and full CLI coverage.",
+  "version": "2.0.0",
+  "contextFileName": "README.md"
+}
