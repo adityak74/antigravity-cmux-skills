@@ -1,5 +1,5 @@
 {
-  "cmux-hooks": {
+  "cmux": {
     "SessionStart": [
       {
         "matcher": "startup|clear|compact",

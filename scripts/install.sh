@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
 
-PLUGIN_DIR="/Users/adityakarnam/.gemini/config/plugins"
+PLUGIN_DIR="$HOME/.gemini/config/plugins"
 TARGET_LINK="$PLUGIN_DIR/antigravity-cmux-skill"
-SOURCE_DIR="/Users/adityakarnam/Projects/antigravity-cmux-skill"
+SOURCE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 echo "Creating plugins directory if it doesn't exist..."
 mkdir -p "$PLUGIN_DIR"
