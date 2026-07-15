@@ -12,7 +12,7 @@
 Running multiple AI agents but can't see what they're doing?<br>
 That's what happens when your terminal wasn't built for agent orchestration.
 
-[Installation](#installation) • [Usage](#when-to-use-what) • [The Problem](#the-problem) • [How It Works](#how-it-works) • [Examples](#real-world-scenarios)
+[Installation](#installation) • [Usage](#when-to-use-what) • [How It Works](#how-it-works) • [Examples](#real-world-scenarios)
 
 </div>
 
